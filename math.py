@@ -18,7 +18,7 @@ branch = web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/d
 branch.send_keys(BRANCH)
 section = web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input')
 section.send_keys(SECTION)
-time.sleep(0.2)
+time.sleep(2)
 
 printf("Done !\n")
 printf("Dont forget to follow me on github @adithyapaib {^}_{^}")
